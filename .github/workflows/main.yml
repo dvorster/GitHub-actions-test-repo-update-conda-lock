@@ -7,7 +7,7 @@ on:
   workflow_dispatch:          # Optional: allow manual trigger
 
 permissions:
-  contents: write
+  contents: write             # Give permissions for actions to push
 
 jobs:
   update_lock_file:
