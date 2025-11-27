@@ -1,9 +1,10 @@
 name: github_actions_test
 channels:
-- conda-forge
+  - conda-forge
 dependencies:
-- numpy=2.3.5
-- conda-lock=3.0.4
-- python=3.11.14
-- pandas=2.3.3
+  - numpy
+  - conda-lock
+  - python=3.11
+  - pandas
+  - scipy
 prefix: /Users/devon/miniforge3/envs/github_actions_test
