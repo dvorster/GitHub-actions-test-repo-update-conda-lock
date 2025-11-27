@@ -6,6 +6,9 @@ on:
       - "environment.yml"     # Only run when this file changes
   workflow_dispatch:          # Optional: allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update_lock_file:
     runs-on: ubuntu-latest
