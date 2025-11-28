@@ -13,5 +13,5 @@ services:
         "--",
         "start-notebook.sh",
         "--ServerApp.token='password'",
-        "--ip=127.0.0.1",
+        "--ip=0.0.0.0",
       ]
