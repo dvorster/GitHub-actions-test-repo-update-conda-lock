@@ -1,6 +1,6 @@
 services:
   project-env:
-    image: dvorster/term-deposit-classifier:latest
+    image: dvorster/GitHub-actions-test-repo-update-conda-lock:latest
     ports:
       - "8888:8888"
     volumes:
